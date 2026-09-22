@@ -1,1 +1,76 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Void Search</title>
+  <style>
+    body {
+      margin: 0;
+      background: #080808;
+      color: white;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 650px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 48px;
+      margin-bottom: 30px;
+    }
+
+    input {
+      width: 75%;
+      padding: 16px;
+      border: 1px solid #444;
+      border-radius: 12px;
+      background: #151515;
+      color: white;
+      font-size: 17px;
+      outline: none;
+    }
+
+    button {
+      padding: 16px 20px;
+      margin-left: 6px;
+      border: none;
+      border-radius: 12px;
+      background: white;
+      color: black;
+      font-weight: bold;
+    }
+
+    p {
+      color: #888;
+      margin-top: 25px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>VOID</h1>
+
+    <form action="https://www.google.com/search" method="GET">
+      <input
+        type="text"
+        name="q"
+        placeholder="Search the web..."
+        autocomplete="off"
+      >
+      <button type="submit">Search</button>
+    </form>
+
+    <p>Void Search • Web search portal</p>
+  </div>
+</body>
+</html>
